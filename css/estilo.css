@@ -167,7 +167,7 @@ h4 {
 
 /* Iconos nosotros */
 @media (min-width: 768px) {
-    .iconos-nostros {
+    .iconos-nosotros {
         display: flex;
         justify-content: space-between;
     }
@@ -224,6 +224,9 @@ h4 {
 .iconos-caracteristicas li {
     /*flex: 1;*/
     display: flex;
+}
+.iconos-caracteristicas li img {
+    margin-right: 2rem;
 }
 .ver-todas {
     display: flex;
