@@ -51,6 +51,36 @@ h4 {
     max-width: 800px;
 }
 
+/** Botones **/
+.boton {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+}
+@media (min-widt: 768px) {
+    .boton {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.boton:hover {
+    cursor: pointer;
+}
+.boton-amarillo {
+    background-color: #e08709;
+}
+.boton-verde {
+    background-color: #71b100;
+}
+
 /* Header */
 .site-header {
     background-color: #333333;
