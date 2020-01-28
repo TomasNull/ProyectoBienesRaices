@@ -213,7 +213,7 @@ h4 {
     color: #71b100;
     font-weight: 700;
 }
-.iconos-características {
+.iconos-caracteristicas {
     list-style: none;
     padding: 0;
     display: flex;
@@ -221,7 +221,7 @@ h4 {
     flex: 1;
     max-width: 500px;;
 }
-.iconos-características li {
+.iconos-caracteristicas li {
     /*flex: 1;*/
     display: flex;
 }
