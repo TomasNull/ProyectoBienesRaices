@@ -300,6 +300,31 @@ h4 {
     color: #e08709;
 }
 
+/* Comentarios */
+.comentario {
+    background-color: #71b100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: #ffffff;
+    border-radius: 2rem;
+}
+.comentario p {
+    text-align: center;
+}
+.comentario blockquote::before {
+    content: '';
+    background-image: url(../img/comilla.svg);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
+}
+.comentario blockquote {
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}
+
 /** Footer **/
 .site-footer {
     background-color: #333333;
