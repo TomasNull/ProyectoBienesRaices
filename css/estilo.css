@@ -65,7 +65,7 @@ h4 {
     display: block;
     flex: 0 0 100%;
 }
-@media (min-widt: 768px) {
+@media (min-width: 768px) {
     .boton {
         display: inline-block;
         flex: 0 0 auto;
@@ -399,6 +399,7 @@ textarea,
 select {
     padding: 1rem;
     display: block;
+    width: 100%;
     background-color: #e1e1e1;
     margin-bottom: 2rem;
     border: none;
