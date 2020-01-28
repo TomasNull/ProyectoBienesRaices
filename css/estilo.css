@@ -33,6 +33,24 @@ h4 {
     font-size: 2.6rem;
 }
 
+/* Utilidades */
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.centrar-texto {
+    text-align: center;
+}
+.d-block {
+    display: block!important; /* Sobreescribe la ley de CSS, aplicando este estilo siempre */
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+
 /* Header */
 .site-header {
     background-color: #333333;
